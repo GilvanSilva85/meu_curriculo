@@ -1,0 +1,55 @@
+body {
+	background: linear-gradient(to left, rgba(190,190,190,0), rgba(190,190,190,1));
+}
+
+.dados-principais, .objetivos, .formacao, .experiencia {
+	position: relative;
+	padding: 20px 0 0 30px;
+}
+
+.dados-principais h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.dados-principais p {
+	color: blue;
+	font-size: 20px;
+}
+
+.links {
+	text-decoration: none;
+}
+
+.objetivos p, .formacao ul, .experiencia div, .atividades {
+	padding-left: 15px;
+}
+
+.titulo-objetivos {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.objetivos p {
+	font-size: 18px;
+}
+
+.itens-formacao:before {
+	content: "⯈";
+}
+
+.formacao li {
+	margin-bottom: 5px;
+}
+
+.data {
+	color: rgb(0,0,240);
+}
+
+.empresa {
+	font-weight: bold;
+}
+
+.atividades {
+	font-size: 18px;
+}
